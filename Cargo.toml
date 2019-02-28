@@ -1,0 +1,12 @@
+[package]
+name = "violet"
+version = "0.1.0"
+authors = ["blukai <20866892+blukai@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+
+
+[dependencies.serenity]
+git = "https://github.com/serenity-rs/serenity.git"
+features = ["framework", "standard_framework"]
